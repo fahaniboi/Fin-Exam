@@ -27,4 +27,4 @@ How it looks like in the Scene:
 ![Lava](https://user-images.githubusercontent.com/72412425/233697858-bc0d96cd-5978-4016-b04b-2e843bb6f41a.png)
 
 
-Added Movement script to the Player to allow the user to control the capsue using WASD. Did this by using a c# script. 
+Added Movement script to the Player to allow the user to control the capsue using WASD. Did this by using a c# script. The script takes in a gameObject, in this case the floor, and takes a speed float as well as a vector3 that is used to normalize the floor. In the Update function I added two floats , one for each GetAxis (Horizontal, and Vertical). Then we make sure the movementDir Vector3 has horizontal and vertical input and then finally we add the classic transform.position += movementDir * speed * Time.deltatime. This makes us move at the specified speed by updating the transform.position of the object by the multiplactions of movementDir, speed, and deltaTime. 

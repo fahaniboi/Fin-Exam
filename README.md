@@ -22,7 +22,7 @@ Changed the colour to a light green to make the capsule resemble the TNMT turtle
 ![Player](https://user-images.githubusercontent.com/72412425/233695312-fac2199d-dc4f-424f-a7de-c48f7791d30f.png)
 
 
-Implemented a Flowing Lava to the Scene. I did this by using the WaterShader that we made during class and added a Lava texture that I got from the web. This allows me to have a flowing lava shader.
+Implemented a Flowing Lava to the Scene. I did this by using the WaterShader that we made during class and motified it so that it has a higher range for speed and aplitude.I then added a Lava texture that I got from the web. This allows me to have a flowing lava shader.
 
 The Lava texture: https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flava-texture&psig=AOvVaw1cv2_bf0-NAbIVwZx02NGo&ust=1682183632126000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDFy8W8u_4CFQAAAAAdAAAAABAI
 

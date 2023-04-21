@@ -8,9 +8,13 @@ The Wall Texture: https://www.istockphoto.com/photo/white-grunge-old-brick-wall-
 
 Implemented the Wall texture to the DiffuseWrap shader that was previously made during lectures and then added the shader to the walls in the scene. The walls are created by using planes along with the floor also being a plane. The diffuseWrap shader was modified a little bit to be able to add shadows on all light source. Did this by changing #pragma surface surf WrapLambert to surface surf Lambert. 
 
-Added a Specular shader and changes the colour to dark-ish green to make it look more like the scene. Again didn't modify anything since I believe there was no need for any modifications. 
-
 ![WallsandFloor](https://user-images.githubusercontent.com/72412425/233694450-72de2c3a-1faf-46f6-ab6d-7f43d7da2fea.png)
+
+Added a Shadow Shader to the Plane thats acting as a floor. This way it has more similarity to the scene. Modified the shader so that it allows me to also place a texture for the object. In this case i added a green floor texture I found on the web. I did this by adding _MainTex in properties and the called it in the fragment shader. 
+
+The Floor Texture: https://www.bigstockphoto.com/image-113641931/stock-photo-horizontal-texture-of-green-tarmac-floor-texture-background
+
+The Floor in Unity: ![Floor](https://user-images.githubusercontent.com/72412425/233708612-4265b1bc-d4ba-492c-899c-cd385e79de8c.png)
 
 Added a toon ramp shader to the Player. The player is created using a capsule. 
 Changed the colour to a light green to make the capsule resemble the TNMT turtle.

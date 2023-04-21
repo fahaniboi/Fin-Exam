@@ -28,3 +28,5 @@ How it looks like in the Scene:
 
 
 Added Movement script to the Player to allow the user to control the capsue using WASD. Did this by using a c# script. The script takes in a gameObject, in this case the floor, and takes a speed float as well as a vector3 that is used to normalize the floor. In the Update function I added two floats , one for each GetAxis (Horizontal, and Vertical). Then we make sure the movementDir Vector3 has horizontal and vertical input and then finally we add the classic transform.position += movementDir * speed * Time.deltatime. This makes us move at the specified speed by updating the transform.position of the object by the multiplactions of movementDir, speed, and deltaTime. 
+
+Added Bloom using c# script and Bloom Shader. The C# script for Bloom allows us to modify the Intensity, Threshold, and Iterations. 

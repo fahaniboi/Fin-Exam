@@ -22,3 +22,9 @@ Implemented a Flowing Lava to the Scene. I did this by using the WaterShader tha
 
 The Lava texture: https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flava-texture&psig=AOvVaw1cv2_bf0-NAbIVwZx02NGo&ust=1682183632126000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDFy8W8u_4CFQAAAAAdAAAAABAI
 
+How it looks like in the Scene:
+
+![Lava](https://user-images.githubusercontent.com/72412425/233697858-bc0d96cd-5978-4016-b04b-2e843bb6f41a.png)
+
+
+Added Movement script to the Player to allow the user to control the capsue using WASD. Did this by using a c# script. 

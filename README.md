@@ -12,9 +12,13 @@ Added a Specular shader and changes the colour to dark-ish green to make it look
 
 ![WallsandFloor](https://user-images.githubusercontent.com/72412425/233694450-72de2c3a-1faf-46f6-ab6d-7f43d7da2fea.png)
 
-
-
 Added a toon ramp shader to the Player. The player is created using a capsule. 
 Changed the colour to a light green to make the capsule resemble the TNMT turtle.
 
 ![Player](https://user-images.githubusercontent.com/72412425/233695312-fac2199d-dc4f-424f-a7de-c48f7791d30f.png)
+
+
+Implemented a Flowing Lava to the Scene. I did this by using the WaterShader that we made during class and added a Lava texture that I got from the web. This allows me to have a flowing lava shader.
+
+The Lava texture: https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Flava-texture&psig=AOvVaw1cv2_bf0-NAbIVwZx02NGo&ust=1682183632126000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDFy8W8u_4CFQAAAAAdAAAAABAI
+
